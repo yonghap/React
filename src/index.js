@@ -17,6 +17,8 @@ import Default from "./sample/Default";
 import List from "./sample/List";
 import LandingPage from "./chapter_09/LandingPage";
 import AttendenceBook from "./chapter_10/AttendenceBook";
+import Caculator from "./chapter_12/Caculator";
+import ProfileCard from "./chapter_13/ProfileCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,7 +30,9 @@ root.render(
 		{/*<ConfirmButton/>*/}
 		{/*<LandingPage />*/}
 		{/*<AttendenceBook />*/}
-		<SignUp />
+		{/*<SignUp />*/}
+		{/*<Caculator />*/}
+		<ProfileCard />
 	</React.StrictMode>
 );
 
