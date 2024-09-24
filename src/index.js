@@ -21,6 +21,7 @@ import Caculator from "./chapter_12/Caculator";
 import ProfileCard from "./chapter_13/ProfileCard";
 import DarkOfLight from "./chapter_14/DarkOfLight";
 import Sample from "./sample/Css";
+import MainPage from "./component/page/MainPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,7 +37,7 @@ root.render(
 		{/*<Caculator />*/}
 		{/*<ProfileCard />*/}
 		{/*<DarkOfLight />*/}
-		<Sample/>
+		<App />
 	</React.StrictMode>
 );
 
